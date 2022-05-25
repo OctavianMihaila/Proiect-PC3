@@ -1,0 +1,10 @@
+init_hotel 315CB
+switch_the_light off
+brightness_adjustment 70
+turn_off_all_lights
+rent_room 34 3
+show_room_status 34
+cleanup 34
+day_passed
+quit
+
