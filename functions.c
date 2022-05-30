@@ -142,10 +142,10 @@ void print_rooms(void* el) {
 //function that looks in the room list if there is a name and id matching for the pair
 //to check
 
-int CheckAccess (TLG list, char* pers, int id_room, TF cmp) {
+int CheckAccess (TLG list, char* pers, int id_room, TFCmp cmp) {
     for ( ; list != NULL; list = list->urm ) {
-        Room room = (Room*)(list->info);
-        if ( cmp(&room, pers, id_room) == 0 ) 
+        Room room = *((Room*)(list->info));
+        if ( cmp(room, pers, id_room) == 0 ) 
             return 1; 
     } 
     return 0
