@@ -16,6 +16,13 @@
 #define quit 9
 #define authentification 10
 #define null_terminator 1
+#define offset_rooms 10
+#define offset_authentification 16
+#define offset_switch 16
+#define offset_brightness 21
+#define offset_turn_off 19
+#define offset_rent 9
+#define offfset_show_room 16
 
 // Argument pentru switch-ul care realizeaza parsarea.
 int encode(char *request);
@@ -44,8 +51,8 @@ typedef struct hotel {
     Room* rooms;
 } Hotel;
 
-typedef struct celulag {
+typedef struct cellg {
   void* info;           
   struct celulag *urm;
-} TCelulaG, *TLG;
+} TcellG, *TLG;
 

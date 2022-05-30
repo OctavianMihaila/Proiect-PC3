@@ -5,6 +5,7 @@
 
 int main () {
     char *request = NULL, *token = NULL, *aux_request = NULL;
+    int room_id, bulb_id;
 
     request = calloc(100, sizeof(char));
     if (!request) {
@@ -23,31 +24,78 @@ int main () {
         switch (encode(aux_request))
         {
             case init_hotel:
+                token = strtok(request + offset_rooms, " ");
+                int room_number = atoi(token);
+
+                token = strtok(NULL, " ");
+                int nr_bulbs = atoi(token);
+
                 printf("init_hotel\n");
                 break;
 
             case authentification:
+                token = strtok(request + offset_authentification, " ");
+                char *name = strdup(token);
+
+                token = strtok(NULL, " ");
+                int nr_room = atoi(token);
+
                 printf("authentification\n");
                 break; 
 
 
             case switch_the_light:
+                token = strtok(request + offset_switch, " ");
+                char *status = strdup(token); // on / off
+
+                token = strtok(NULL, " ");
+                bulb_id = atoi(token); // becul care trebuie stins
+
                 printf("switch_the_light\n");
                 break;  
 
             case brightness_adjustment:
+                token = strtok(request + offset_brightness, " ");
+                int room_id = atoi(token);
+
+                token = strtok(NULL, " ");
+                bulb_id = atoi(token);
+
+                token = strtok(NULL, " ");
+                int R = atoi(token);
+
+                token = strtok(NULL, " ");
+                int G = atoi(token);
+
+                token = strtok(NULL, " ");
+                int B = atoi(token);
+
+                //printf(">>%d %d %d %d %d\n", room_id, bulb_id, R, G, B);
+
                 printf("brightness_adjustment\n");
                 break;
             
             case turn_off_all_lights:
+                token = strtok(request + offset_turn_off, " ");
+                room_id = atoi(token);
+
                 printf("turn_off_all_lights\n");
                 break;
 
             case rent_room:
+                token = strtok(request + offset_rent, " ");
+                char *tenant_name = strdup(token);
+
+                token = strtok(NULL, " ");
+                room_id = atoi(token);
+
                 printf("rent_room\n");
                 break;
 
             case show_room_status:
+                token = strtok(request + offfset_show_room, " ");
+                room_id = atoi(token);
+
                 printf("show_room_status\n");
                 break;
 
