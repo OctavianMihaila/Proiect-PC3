@@ -27,6 +27,12 @@
 // Argument pentru switch-ul care realizeaza parsarea.
 int encode(char *request);
 
+typedef struct cellg {
+    void* info;           
+    struct cellg *urm;
+} TcellG, *TLG;
+
+
 typedef struct  tenant{
    char* name;
    int day_count;
@@ -41,18 +47,21 @@ typedef struct  lights {
 typedef struct  room {
     int id;
     Tenant* tenant;
-    LightBulb*  bulbs;                  //lista becuri camera
+    TLG  bulbs;                  //lista becuri camera
     int nr_bulbs;                       //total numbers
     int used;
 } Room;
 
 typedef struct hotel {
     int nr_rooms;
-    Room* rooms;
+    TLG rooms;
 } Hotel;
 
-typedef struct cellg {
-  void* info;           
-  struct celulag *urm;
-} TcellG, *TLG;
 
+//fucntion pointer for TLG functions
+typedef void (*TF)(void*);
+
+
+TLG alloc_cell(void* x);
+TLG InitBulbs( TLG bulbs, int nr_bulbs);
+Hotel* InitHotel(int nr_rooms, int nr_bulbs);

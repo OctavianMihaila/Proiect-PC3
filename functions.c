@@ -52,3 +52,58 @@ int encode(char *request) {
     printf("Invalid request\n");
     return 0;
 }
+
+TLG alloc_cell(void* x) {	
+    TLG aux;
+  	aux = (TLG)calloc(1,sizeof(TcellG));
+   	if(!aux) return NULL;
+   	
+	aux->info = x;
+	aux->urm = NULL;
+	return aux;
+}
+
+Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
+    Hotel* hotel = calloc(1, sizeof(Hotel));
+    hotel->nr_rooms = nr_rooms;
+    
+    TLG list = NULL;
+    TLG  aux, contor;
+    for ( int i = 1; i <= nr_rooms; i++ ) {
+        Room* room = calloc( 1, sizeof(Room));
+        if ( !room ) return NULL;
+        room->tenant = calloc(1, sizeof(Tenant));
+        room->tenant->name = calloc(50, sizeof(char));
+        room->nr_bulbs = nr_bulbs;
+        room->bulbs = InitBulbs(room->bulbs, nr_bulbs);
+
+        aux = alloc_cell(room);
+        if ( list == NULL ) {
+            list = aux;
+            contor = aux;
+        } else {
+            contor->urm = aux;
+            contor = aux;
+        }  
+    }
+
+    hotel->rooms = list;
+
+    return hotel;
+} 
+
+TLG InitBulbs( TLG bulbs, int nr_bulbs) {
+    TLG list = NULL;
+    TLG aux, contor;
+    for ( int i = 1 ;i <= nr_bulbs; i++ ) {
+        aux = alloc_cell(&i);
+        if ( list == NULL ) {
+            list = aux;             //keep the head of the list
+            contor = aux;
+        } else {
+            contor->urm = aux;
+            contor = aux;
+        }
+    }
+    return list;
+}
