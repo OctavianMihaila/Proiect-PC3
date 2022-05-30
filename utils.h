@@ -58,9 +58,9 @@ typedef struct hotel {
 } Hotel;
 
 
-//fucntion pointer for TLG functions
+//function pointer for TLG functions
 typedef void (*TF)(void*);
-
+typedef int (*TFCmp)(Room room, char* pers, int id);
 
 TLG alloc_cell(void* x);
 TLG InitBulbs( TLG bulbs, int nr_bulbs);

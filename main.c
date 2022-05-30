@@ -8,6 +8,8 @@ int main () {
     int room_id, bulb_id;
 
     Hotel* hotel = NULL;
+    char* person_auth = NULL;              //the current authentificated person
+    person_auth = calloc(50, sizeof(char));
 
     request = calloc(100, sizeof(char));
     if (!request) {
@@ -45,7 +47,16 @@ int main () {
                 token = strtok(NULL, " ");
                 int nr_room = atoi(token);
 
+                //only the current pers auth can have control over commands 
+                //concerning the lighting system if they have already rented 
+                //the room they want to make changes in
+
+                memcpy(person_auth, name, strlen(name));        
+
                 printf("authentification\n");
+
+                
+
                 break; 
 
 
