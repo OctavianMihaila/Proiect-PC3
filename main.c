@@ -7,6 +7,8 @@ int main () {
     char *request = NULL, *token = NULL, *aux_request = NULL;
     int room_id, bulb_id;
 
+    Hotel* hotel = NULL;
+
     request = calloc(100, sizeof(char));
     if (!request) {
         printf("allocation failed for request.");
@@ -25,10 +27,13 @@ int main () {
         {
             case init_hotel:
                 token = strtok(request + offset_rooms, " ");
-                int room_number = atoi(token);
+                int room_numbers = atoi(token);
 
                 token = strtok(NULL, " ");
                 int nr_bulbs = atoi(token);
+
+                hotel = InitHotel(room_numbers, nr_bulbs);
+                
 
                 printf("init_hotel\n");
                 break;

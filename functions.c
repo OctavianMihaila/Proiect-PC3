@@ -107,3 +107,20 @@ TLG InitBulbs( TLG bulbs, int nr_bulbs) {
     }
     return list;
 }
+
+void PrintList(TLG L, TF printEL) {
+    if(!L) {
+       printf("Lista vida\n");
+       return;
+    }
+
+	printf("Lista: [");
+	for(; L; L = L->urm) 
+		printEL(L->info);
+    
+	printf("]\n");
+}
+
+void print_bulbs(void* el) {
+	printf("id: %d; proper: %d", ((LightBulb*)el)->id, ((LightBulb*)el)->proper);
+}
