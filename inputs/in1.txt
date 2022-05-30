@@ -1,0 +1,18 @@
+init_hotel 600 10
+show_room_status 67
+show_room_status 78
+rent_room  Mary 2 78
+day_passed
+authentification Mary 78
+brightness_adjustment 78 3 7 24 9 
+turn_off_all_lights 78
+rent_room  Mary 4 90
+switch_the_light off 4
+day_passed
+rent_room Jake 78
+rent_room Jake 90
+authentification Jake 45
+switch_the_light off 2
+brightness_adjustment 78 3 7 24 9
+brightness_adjustment 45 1 89 167 34
+quit

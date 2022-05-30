@@ -11,6 +11,10 @@ int encode(char *request) {
         free(request);
         return init_hotel;
     }
+    else if (strcmp(token, "authentification") == 0) {
+        free(request);
+        return authentification;
+    }
     else if (strcmp(token, "switch_the_light") == 0) {
         free(request);
         return switch_the_light;

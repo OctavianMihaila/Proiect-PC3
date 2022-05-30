@@ -14,7 +14,38 @@
 #define cleanup 7
 #define day_passed 8
 #define quit 9
+#define authentification 10
 #define null_terminator 1
 
 // Argument pentru switch-ul care realizeaza parsarea.
 int encode(char *request);
+
+typedef struct  tenant{
+   char* name;
+   int day_count;
+   int room_id;                          //roomm id 
+} Tenant;
+
+typedef struct  lights {
+    int id;
+    int proper;
+} LightBulb;
+
+typedef struct  room {
+    int id;
+    Tenant* tenant;
+    LightBulb*  bulbs;                  //lista becuri camera
+    int nr_bulbs;                       //total numbers
+    int used;
+} Room;
+
+typedef struct hotel {
+    int nr_rooms;
+    Room* rooms;
+} Hotel;
+
+typedef struct celulag {
+  void* info;           
+  struct celulag *urm;
+} TCelulaG, *TLG;
+
