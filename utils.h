@@ -65,3 +65,10 @@ typedef void (*TF)(void*);
 TLG alloc_cell(void* x);
 TLG InitBulbs( TLG bulbs, int nr_bulbs);
 Hotel* InitHotel(int nr_rooms, int nr_bulbs);
+
+
+// Din functions_aditional
+void find_room(TLG room_list, char *tenant_name, int days, int room_id);
+
+// Verificare camera ocupata/libera.
+void show_status(TLG room_list, int room_id);

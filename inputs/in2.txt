@@ -1,0 +1,29 @@
+7 5
+init_hotel 200 5
+show_room_status 5
+rent_room Jane 3 23
+rent_room Michael 4 26
+rent_room Alex 3 7
+rent_room Marco 4 7
+day_passed
+day_passed
+authentification Marco 7
+brightness_adjustment 78 3 7 24 9 
+switch_the_light off 4
+switch_the_light on 2
+turn_off_all_lights 7
+day_passed
+show_room_status 7
+show_room_status 26
+rent_room Sarah 2 78
+brightness_adjustment 45 1 89 167 34
+rent_room Alexia 4 12
+rent_room Mary 4 10
+rent_room Andrei 4 10
+authentification Andrei 10
+switch_the_light off 2
+switch_the_light on 3
+turn_off_all_lights 10
+show_room_status 10
+show_room_status 11
+show_room_status 29

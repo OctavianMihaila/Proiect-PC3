@@ -5,7 +5,14 @@
 
 int main () {
     char *request = NULL, *token = NULL, *aux_request = NULL;
-    int room_id, bulb_id;
+    int room_id, bulb_id, nr_housekeepers, max_rooms_cleanup;
+
+    scanf("%d", &nr_housekeepers);
+    scanf("%d", &max_rooms_cleanup);
+    scanf("\n");
+
+    char* person_auth = NULL;              //the current authentificated person
+    person_auth = calloc(50, sizeof(char));
 
     request = calloc(100, sizeof(char));
     if (!request) {
@@ -30,6 +37,7 @@ int main () {
                 token = strtok(NULL, " ");
                 int nr_bulbs = atoi(token);
 
+                Hotel *hotel = InitHotel(room_number, nr_bulbs);
                 printf("init_hotel\n");
                 break;
 
@@ -39,6 +47,12 @@ int main () {
 
                 token = strtok(NULL, " ");
                 int nr_room = atoi(token);
+
+                //only the current pers auth can have control over commands 
+                //concerning the lighting system if they have already rented 
+                //the room they want to make changes in
+
+                memcpy(person_auth, name, strlen(name));
 
                 printf("authentification\n");
                 break; 
@@ -87,14 +101,28 @@ int main () {
                 char *tenant_name = strdup(token);
 
                 token = strtok(NULL, " ");
+                int days = atoi(token);
+
+                token = strtok(NULL, " ");
                 room_id = atoi(token);
 
-                printf("rent_room\n");
+                Tenant *tenant = calloc(1, sizeof(tenant));
+                tenant->name = tenant_name;
+                tenant->room_id = room_id;
+                tenant->day_count = days;
+
+                find_room(hotel->rooms, tenant_name, days, room_id);
+
+                // search in rooms --> fill / error message
+
                 break;
 
             case show_room_status:
                 token = strtok(request + offfset_show_room, " ");
                 room_id = atoi(token);
+
+                show_status(hotel->rooms, room_id);
+                // search in rooms
 
                 printf("show_room_status\n");
                 break;
@@ -104,10 +132,12 @@ int main () {
                 break;
 
             case day_passed:
+                // actualizare peste tot
                 printf("day_passed\n");
                 break;
 
             case quit:
+                // free-uri 
                 printf("quit\n");
                 break;
             

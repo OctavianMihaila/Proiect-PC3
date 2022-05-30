@@ -75,6 +75,7 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
         room->tenant = calloc(1, sizeof(Tenant));
         room->tenant->name = calloc(50, sizeof(char));
         room->nr_bulbs = nr_bulbs;
+        room->id = i;
         room->bulbs = InitBulbs(room->bulbs, nr_bulbs);
 
         aux = alloc_cell(room);
@@ -84,7 +85,7 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
         } else {
             contor->urm = aux;
             contor = aux;
-        }  
+        }
     }
 
     hotel->rooms = list;
