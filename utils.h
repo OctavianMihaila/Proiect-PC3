@@ -67,3 +67,4 @@ TLG InitBulbs( TLG bulbs, int nr_bulbs);
 Hotel* InitHotel(int nr_rooms, int nr_bulbs);
 void PrintList(TLG L, TF printEL);
 void print_bulbs(void* el);
+void print_rooms(void* el);

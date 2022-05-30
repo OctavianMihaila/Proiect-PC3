@@ -1,0 +1,1320 @@
+Lista: [
+---->room id: 1
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 2
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 3
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 4
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 5
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 6
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 7
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 8
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 9
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 10
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 11
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 12
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 13
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 14
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 15
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 16
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 17
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 18
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 19
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 20
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 21
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 22
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 23
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 24
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 25
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 26
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 27
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 28
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 29
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 30
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 31
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 32
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 33
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 34
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 35
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 36
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 37
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 38
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 39
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 40
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 41
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 42
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 43
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 44
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 45
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 46
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 47
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 48
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 49
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 50
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 51
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 52
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 53
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 54
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 55
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 56
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 57
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 58
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 59
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 60
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 61
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 62
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 63
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 64
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 65
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 66
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 67
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 68
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 69
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 70
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 71
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 72
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 73
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 74
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 75
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 76
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 77
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 78
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 79
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 80
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 81
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 82
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 83
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 84
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 85
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 86
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 87
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 88
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 89
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 90
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 91
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 92
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 93
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 94
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 95
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 96
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 97
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 98
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 99
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+---->room id: 100
+Lista: [
+    bec id: 1; proper: 0
+    bec id: 2; proper: 0
+    bec id: 3; proper: 0
+    bec id: 4; proper: 0
+    bec id: 5; proper: 0
+    bec id: 6; proper: 0
+    bec id: 7; proper: 0
+    bec id: 8; proper: 0
+    bec id: 9; proper: 0
+    bec id: 10; proper: 0
+]
+]
+init_hotel
+show_room_status
+show_room_status
+rent_room
+day_passed
+authentification
+brightness_adjustment
+turn_off_all_lights
+rent_room
+switch_the_light
+day_passed
+rent_room
+rent_room
+authentification
+switch_the_light
+brightness_adjustment
+brightness_adjustment
+quit

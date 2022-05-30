@@ -75,6 +75,7 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
         room->tenant = calloc(1, sizeof(Tenant));
         room->tenant->name = calloc(50, sizeof(char));
         room->nr_bulbs = nr_bulbs;
+        room->id = i;
         room->bulbs = InitBulbs(room->bulbs, nr_bulbs);
 
         aux = alloc_cell(room);
@@ -95,8 +96,12 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
 TLG InitBulbs( TLG bulbs, int nr_bulbs) {
     TLG list = NULL;
     TLG aux, contor;
+
     for ( int i = 1 ;i <= nr_bulbs; i++ ) {
-        aux = alloc_cell(&i);
+        LightBulb* bulb = calloc(1, sizeof(LightBulb));
+        bulb->id = i;
+
+        aux = alloc_cell(bulb);
         if ( list == NULL ) {
             list = aux;             //keep the head of the list
             contor = aux;
@@ -108,13 +113,14 @@ TLG InitBulbs( TLG bulbs, int nr_bulbs) {
     return list;
 }
 
+
 void PrintList(TLG L, TF printEL) {
     if(!L) {
        printf("Lista vida\n");
        return;
     }
 
-	printf("Lista: [");
+	printf("Lista: [\n");
 	for(; L; L = L->urm) 
 		printEL(L->info);
     
@@ -122,5 +128,10 @@ void PrintList(TLG L, TF printEL) {
 }
 
 void print_bulbs(void* el) {
-	printf("id: %d; proper: %d", ((LightBulb*)el)->id, ((LightBulb*)el)->proper);
+	printf("    bec id: %d; proper: %d\n", ((LightBulb*)el)->id, ((LightBulb*)el)->proper);
+}
+
+void print_rooms(void* el) {
+    printf("---->room id: %d\n", ((Room*)el)->id);
+    PrintList(((Room*)el)->bulbs, print_bulbs);
 }

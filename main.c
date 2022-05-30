@@ -33,7 +33,7 @@ int main () {
                 int nr_bulbs = atoi(token);
 
                 hotel = InitHotel(room_numbers, nr_bulbs);
-                
+                PrintList(hotel->rooms, print_rooms);
 
                 printf("init_hotel\n");
                 break;
