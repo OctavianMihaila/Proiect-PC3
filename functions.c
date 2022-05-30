@@ -85,7 +85,7 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
         } else {
             contor->urm = aux;
             contor = aux;
-        }
+        }  
     }
 
     hotel->rooms = list;
@@ -96,8 +96,12 @@ Hotel* InitHotel(int nr_rooms, int nr_bulbs ) {
 TLG InitBulbs( TLG bulbs, int nr_bulbs) {
     TLG list = NULL;
     TLG aux, contor;
+
     for ( int i = 1 ;i <= nr_bulbs; i++ ) {
-        aux = alloc_cell(&i);
+        LightBulb* bulb = calloc(1, sizeof(LightBulb));
+        bulb->id = i;
+
+        aux = alloc_cell(bulb);
         if ( list == NULL ) {
             list = aux;             //keep the head of the list
             contor = aux;
@@ -107,4 +111,42 @@ TLG InitBulbs( TLG bulbs, int nr_bulbs) {
         }
     }
     return list;
+}
+
+
+void PrintList(TLG L, TF printEL) {
+    if(!L) {
+       printf("Lista vida\n");
+       return;
+    }
+
+	printf("Lista: [\n");
+	for(; L; L = L->urm) 
+		printEL(L->info);
+    
+	printf("]\n");
+}
+
+void print_bulbs(void* el) {
+	printf("    bec id: %d; proper: %d\n", ((LightBulb*)el)->id, ((LightBulb*)el)->proper);
+}
+
+void print_rooms(void* el) {
+    printf("---->room id: %d\n", ((Room*)el)->id);
+    PrintList(((Room*)el)->bulbs, print_bulbs);
+}
+
+//lighting system functions:
+//only available if there was an authentification command 
+
+//function that looks in the room list if there is a name and id matching for the pair
+//to check
+
+int CheckAccess (TLG list, char* pers, int id_room, TFCmp cmp) {
+    for ( ; list != NULL; list = list->urm ) {
+        Room room = *((Room*)(list->info));
+        if ( cmp(room, pers, id_room) == 0 ) 
+            return 1; 
+    } 
+    return 0;
 }
