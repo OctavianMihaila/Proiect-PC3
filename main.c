@@ -58,7 +58,8 @@ int main () {
                 //concerning the lighting system if they have already rented 
                 //the room they want to make changes in
 
-                memcpy(person_auth, name, strlen(name));        
+                memcpy(person_auth, name, strlen(name)); 
+                        
                 if ( CheckAccess(hotel->rooms, name, nr_room, Room_Owner) == 1 )
                     printf("%s is now in control of the lighting system in room %d\n", name, nr_room);
                 else {
@@ -66,7 +67,6 @@ int main () {
                 }
                 
                 break; 
-
 
             case switch_the_light:
                 token = strtok(request + offset_switch, " ");
@@ -108,13 +108,6 @@ int main () {
 
                 break;
             
-            
-            case turn_off_all_lights:
-                token = strtok(request + offset_turn_off, " ");
-                room_id = atoi(token);
-
-                break;
-
             case rent_room:
                 token = strtok(request + offset_rent, " ");
                 char *tenant_name = strdup(token);
@@ -132,7 +125,7 @@ int main () {
 
                 find_room(hotel->rooms, tenant_name, days, room_id,
                         &start_cleanup_queue, &cleanup_queue);
-
+                
                 break;
 
             case show_room_status:
@@ -140,7 +133,6 @@ int main () {
                 room_id = atoi(token);
 
                 show_status(hotel->rooms, room_id);
-                // search in rooms
 
                 break;
 

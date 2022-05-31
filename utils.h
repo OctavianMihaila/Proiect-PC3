@@ -9,7 +9,6 @@
 #define init_hotel 1
 #define switch_the_light 2
 #define brightness_adjustment 3
-#define turn_off_all_lights 4
 #define rent_room 5
 #define show_room_status 6
 #define cleanup 7
@@ -61,7 +60,7 @@ typedef struct hotel {
 
 //function pointer for TLG functions
 typedef void (*TF)(void*);
-typedef int (*TFCmp)(Room room, char* pers, int id);
+typedef int (*TFCmp)(TLG room, char* pers, int id);
 
 TLG alloc_cell(void* x);
 TLG InitBulbs( TLG bulbs, int nr_bulbs);
@@ -74,10 +73,11 @@ void show_status(TLG room_list, int room_id);
 void switch_light (char* pers, char* status, int room_id, int bulb_id, TLG* rooms);
 LightBulb* FindBulb (TLG list, int id );
 int CheckAccess (TLG list, char* pers, int id_room, TFCmp cmp);
-int Room_Owner (Room room, char* pers, int id );
+int Room_Owner (TLG list, char* pers, int id );
 TLG FindRoom_by_ID (TLG rooms, int room_id );
 void brightness_adj (char* pers, int room_id, int bulb_id, TLG* rooms, char R, char G, char B);
 TLG modify_prop (TLG bulb_list, int bulb_id, char R, char G, char B);
+int check_room(TLG room_list, char tenant_name, int room_id);
 
 /* Functia realizeaza atribuirea camerei catre cel care a facut cererea
 In plus, in cazul in care camera se afla in coada de curatare, aceasta

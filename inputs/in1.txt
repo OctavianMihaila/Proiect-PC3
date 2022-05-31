@@ -11,7 +11,7 @@ rent_room Mary 4 90
 switch_the_light off 4
 day_passed
 rent_room Jake 6 78
-rent_room Jake 8 90
+rent_room Jake 890
 authentification Jake 45
 switch_the_light off 2
 brightness_adjustment 78 3 7 24 9

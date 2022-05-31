@@ -1,6 +1,8 @@
 6 4
 init_hotel 150 12
-
+rent_room Mary 2 78
+rent_room Claire 45
+rent_room Alex 2 45
 show_room_status 78
 show_room_status 4
 show_room_status 45
@@ -14,8 +16,8 @@ rent_room Jake 6 50
 rent_room Blake 6 51
 authentification Jake 50
 switch_the_light off 3
-brightness_adjustment 50 3 7 22 9
-brightness_adjustment 50 1 91 17 55
+brightness_adjustment 45 3 7 22 9
+brightness_adjustment 45 1 91 17 55
 day_passed
 day_passed
 cleanup
