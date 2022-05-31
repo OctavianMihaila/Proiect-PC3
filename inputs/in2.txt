@@ -5,8 +5,18 @@ rent_room Jane 3 23
 rent_room Michael 4 26
 rent_room Alex 3 7
 rent_room Marco 4 7
+rent_room Claire 2 14
+rent_room Mamaia 3 43
+rent_room Ana 3, 33
+day_passed
+cleanup
+day_passed
+cleanup
 day_passed
 day_passed
+day_passed
+cleanup
+cleanup
 authentification Marco 7
 brightness_adjustment 78 3 7 24 9 
 switch_the_light off 4

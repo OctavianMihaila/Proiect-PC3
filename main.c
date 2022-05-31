@@ -7,12 +7,18 @@ int main () {
     char *request = NULL, *token = NULL, *aux_request = NULL;
     int room_id, bulb_id, nr_housekeepers, max_rooms_cleanup;
 
+    int max_clean_per_day = nr_housekeepers * max_clean_per_day;
+    queue cleanup_queue = NULL, start_cleanup_queue = NULL;
+
     scanf("%d", &nr_housekeepers);
     scanf("%d", &max_rooms_cleanup);
     scanf("\n");
 
-    char* person_auth = NULL;              //the current authentificated person
-    person_auth = calloc(50, sizeof(char));
+    char *person_auth = calloc(50, sizeof(char)); // persoana curenta autentificata
+    if (!person_auth) {
+        printf("allocation failed for person_auth.");
+        return 0;
+    }
 
     request = calloc(100, sizeof(char));
     if (!request) {
@@ -84,8 +90,6 @@ int main () {
                 token = strtok(NULL, " ");
                 int B = atoi(token);
 
-                //printf(">>%d %d %d %d %d\n", room_id, bulb_id, R, G, B);
-
                 printf("brightness_adjustment\n");
                 break;
             
@@ -111,9 +115,8 @@ int main () {
                 tenant->room_id = room_id;
                 tenant->day_count = days;
 
-                find_room(hotel->rooms, tenant_name, days, room_id);
-
-                // search in rooms --> fill / error message
+                find_room(hotel->rooms, tenant_name, days, room_id,
+                        &start_cleanup_queue, &cleanup_queue);
 
                 break;
 
@@ -128,16 +131,23 @@ int main () {
                 break;
 
             case cleanup:
+                cleanup_day(&start_cleanup_queue, max_clean_per_day);
                 printf("cleanup\n");
                 break;
 
             case day_passed:
-                // actualizare peste tot
+                sub_day(hotel->rooms, &cleanup_queue, &start_cleanup_queue);
+                print_cleanup_q(&cleanup_queue, &start_cleanup_queue);
+
                 printf("day_passed\n");
                 break;
 
             case quit:
-                // free-uri 
+                DestroyTLG(&(hotel->rooms));
+                free_q(&(hotel->cleanup_queue));
+                free(request);
+                free(person_auth);
+                free(hotel);
                 printf("quit\n");
                 break;
             

@@ -1,4 +1,5 @@
 /* Mihăilă Octavian-Iulian - 315CB */
+/* Dobre Emilia-Iliana - 315CB */
 
 #include <stdlib.h>
 #include <stdio.h>

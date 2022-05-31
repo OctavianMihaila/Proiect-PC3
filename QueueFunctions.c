@@ -2,7 +2,7 @@
 /* Dobre Emilia-Iliana - 315CB */
 /* QueueFunctions.c -- elementele cozii sunt memorate intr-o lista generica */
 
-#include "queue.h"
+#include "utils.h"
 
 queue InsertQ(queue q, queue *start_q, void *info) {
     queue new_elem = (queue)calloc(1, sizeof(queue_element));
