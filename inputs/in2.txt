@@ -9,13 +9,11 @@ rent_room Claire 2 14
 rent_room Mamaia 3 43
 rent_room Ana 3, 33
 day_passed
-cleanup
-day_passed
-cleanup
-day_passed
 day_passed
 day_passed
 cleanup
+day_passed
+day_passed
 cleanup
 authentification Marco 7
 brightness_adjustment 78 3 7 24 9 

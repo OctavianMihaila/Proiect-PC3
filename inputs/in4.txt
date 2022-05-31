@@ -1,0 +1,24 @@
+12 5
+init_hotel 300 25
+rent_room Antoine 42
+rent_room Maria 121
+day_passed
+show_room_status 121
+show_room_status 42
+show_room_status 14
+show_room_status 4
+day_passed
+authentification Antoine 78
+brightness_adjustment 78 6 23 214 213 
+turn_off_all_lights 78
+rent_room Alex 6 23
+rent_room Fritz 222
+rent_room Andrei 232
+rent_room Gabriel 212
+rent_room Florin 123
+rent_room Adrian 100
+day_passed
+show_room_status 232
+show_room_status 222
+
+

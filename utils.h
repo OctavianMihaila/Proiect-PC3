@@ -70,6 +70,15 @@ void PrintList(TLG L, TF printEL);
 void print_bulbs(void* el);
 void print_rooms(void* el);
 
+void show_status(TLG room_list, int room_id);
+void switch_light (char* pers, char* status, int room_id, int bulb_id, TLG* rooms);
+LightBulb* FindBulb (TLG list, int id );
+int CheckAccess (TLG list, char* pers, int id_room, TFCmp cmp);
+int Room_Owner (Room room, char* pers, int id );
+TLG FindRoom_by_ID (TLG rooms, int room_id );
+void brightness_adj (char* pers, int room_id, int bulb_id, TLG* rooms, char R, char G, char B);
+TLG modify_prop (TLG bulb_list, int bulb_id, char R, char G, char B);
+
 /* Functia realizeaza atribuirea camerei catre cel care a facut cererea
 In plus, in cazul in care camera se afla in coada de curatare, aceasta
 devine prioritara (este trecuta prima in coada) */

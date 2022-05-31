@@ -1,0 +1,30 @@
+6 4
+init_hotel 150 12
+
+show_room_status 78
+show_room_status 4
+show_room_status 45
+day_passed
+cleanup
+authentification Mary 78
+brightness_adjustment 78 3 7 24 9 
+switch_the_light off 4
+turn_off_all_lights 78
+rent_room Jake 6 50
+rent_room Blake 6 51
+authentification Jake 50
+switch_the_light off 3
+brightness_adjustment 50 3 7 22 9
+brightness_adjustment 50 1 91 17 55
+day_passed
+day_passed
+cleanup
+rent_room Borris 2 43
+rent_room Jean 5 95
+rent_room Paul 3 27
+day_passed
+rent_room Romain 5 10
+rent_room Mick 1 3
+day_passed
+day_passed
+quit

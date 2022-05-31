@@ -7,12 +7,12 @@ int main () {
     char *request = NULL, *token = NULL, *aux_request = NULL;
     int room_id, bulb_id, nr_housekeepers, max_rooms_cleanup;
 
-    int max_clean_per_day = nr_housekeepers * max_clean_per_day;
     queue cleanup_queue = NULL, start_cleanup_queue = NULL;
 
     scanf("%d", &nr_housekeepers);
     scanf("%d", &max_rooms_cleanup);
     scanf("\n");
+    int max_clean_per_day = nr_housekeepers * max_rooms_cleanup;
 
     char *person_auth = calloc(50, sizeof(char)); // persoana curenta autentificata
     if (!person_auth) {
@@ -38,13 +38,13 @@ int main () {
         {
             case init_hotel:
                 token = strtok(request + offset_rooms, " ");
-                int room_number = atoi(token);
+                int room_numbers = atoi(token);
 
                 token = strtok(NULL, " ");
                 int nr_bulbs = atoi(token);
 
-                Hotel *hotel = InitHotel(room_number, nr_bulbs);
-                printf("init_hotel\n");
+                Hotel *hotel = InitHotel(room_numbers, nr_bulbs);
+
                 break;
 
             case authentification:
@@ -58,9 +58,13 @@ int main () {
                 //concerning the lighting system if they have already rented 
                 //the room they want to make changes in
 
-                memcpy(person_auth, name, strlen(name));
-
-                printf("authentification\n");
+                memcpy(person_auth, name, strlen(name));        
+                if ( CheckAccess(hotel->rooms, name, nr_room, Room_Owner) == 1 )
+                    printf("%s is now in control of the lighting system in room %d\n", name, nr_room);
+                else {
+                    printf("Sorry. Authentication failed.\n");
+                }
+                
                 break; 
 
 
@@ -69,35 +73,46 @@ int main () {
                 char *status = strdup(token); // on / off
 
                 token = strtok(NULL, " ");
-                bulb_id = atoi(token); // becul care trebuie stins
+                room_id = atoi(token);          
 
-                printf("switch_the_light\n");
+                token = strtok(NULL, " ");
+                bulb_id = atoi(token);
+
+                if ( person_auth != NULL ) {
+                    switch_light(person_auth, status, room_id, bulb_id, &hotel->rooms);
+                } else 
+                    printf("There is no person authenticated.\n");
+
                 break;  
 
             case brightness_adjustment:
                 token = strtok(request + offset_brightness, " ");
+                char *pers = strdup(token);
+
+                token = strtok(NULL, " ");
                 int room_id = atoi(token);
 
                 token = strtok(NULL, " ");
                 bulb_id = atoi(token);
 
                 token = strtok(NULL, " ");
-                int R = atoi(token);
+                char R = atoi(token);
 
                 token = strtok(NULL, " ");
-                int G = atoi(token);
+                char G = atoi(token);
 
                 token = strtok(NULL, " ");
-                int B = atoi(token);
+                char B = atoi(token);
 
-                printf("brightness_adjustment\n");
+                brightness_adj(pers, room_id, bulb_id, &hotel->rooms, R, G, B);
+
                 break;
+            
             
             case turn_off_all_lights:
                 token = strtok(request + offset_turn_off, " ");
                 room_id = atoi(token);
 
-                printf("turn_off_all_lights\n");
                 break;
 
             case rent_room:
@@ -127,7 +142,6 @@ int main () {
                 show_status(hotel->rooms, room_id);
                 // search in rooms
 
-                printf("show_room_status\n");
                 break;
 
             case cleanup:
@@ -148,10 +162,11 @@ int main () {
                 free(request);
                 free(person_auth);
                 free(hotel);
-                printf("quit\n");
+                
                 break;
             
         default:
+
             break;
         }
     }
